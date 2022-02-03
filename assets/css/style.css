@@ -1,0 +1,51 @@
+.navbar{
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    transition: all 0.9s;
+}
+
+.close{
+    transform: translate(0,-100px);
+}
+
+.navbar i{
+    position: absolute;
+    color: grey;
+    font-size: 30px;
+    top: 10px;
+    left: 100px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.navbar i:hover{
+    color: white;
+}
+
+.navbar ul{
+    list-style: none;
+    margin-left: 1000px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: grey;
+    transition: all 0.3s;
+}
+
+.navbar ul li a:hover{
+    color: white;
+}
+
+button{
+    position: absolute;
+    top: 10px;
+    left: 1%;
+}
